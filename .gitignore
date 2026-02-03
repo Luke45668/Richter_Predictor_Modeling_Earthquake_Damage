@@ -1,0 +1,72 @@
+# This:
+
+# keeps source code under version control,
+
+# excludes large / regenerable artefacts,
+
+# avoids committing LaTeX build junk and HPC outputs.
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+############################
+# Jupyter
+############################
+.ipynb_checkpoints/
+
+############################
+# Data & simulation output
+############################
+data/
+outputs/
+results/
+dump/
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.csv
+*.dat
+*.vtk
+
+############################
+# Logs & checkpoints
+############################
+*.log
+*.out
+*.err
+checkpoint/
+checkpoints/
+
+############################
+# LaTeX
+############################
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.toc
+*.synctex.gz
+
+############################
+# Figures (generated)
+############################
+figures/
+plots/
+
+############################
+# OS / editor
+############################
+.DS_Store
+.vscode/
+.idea/
