@@ -24,7 +24,6 @@ env/
 ############################
 # Data & simulation output
 ############################
-data/
 outputs/
 results/
 dump/
@@ -61,8 +60,8 @@ checkpoints/
 ############################
 # Figures (generated)
 ############################
-figures/
-plots/
+# figures/
+# plots/
 
 ############################
 # OS / editor
