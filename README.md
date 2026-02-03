@@ -9,7 +9,7 @@ We're trying to predict the ordinal variable damage_grade, which represents a le
 2 represents a medium amount of damage
 3 represents almost complete destruction
 
-Description of features 
+## Description of features 
 
 geo_level_1_id, geo_level_2_id, geo_level_3_id (type: int): geographic region in which building exists, from largest (level 1) to most specific sub-region (level 3). Possible values: level 1: 0-30, level 2: 0-1427, level 3: 0-12567.
 
